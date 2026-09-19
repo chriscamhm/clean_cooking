@@ -1,4 +1,4 @@
-# Classification Models to Identify Main Cooking Fuel Source in Colombia
+# Classification models to identify main cooking fuel source in Colombia
 
 ## Overview
 This repository contains the codebase used to evaluate and predict the primary cooking fuel sources of Colombian households. Despite widespread access to electricity (94.92%) and natural gas (68%), a significant portion of the population continues to rely on transitional or polluting fuels like firewood. 
@@ -36,16 +36,3 @@ Four multilabel classification models were trained and tuned using GridSearch Cr
     3.  Access to public water
     4.  Urban residency
 *   **Conclusion:** Surprisingly, Socioeconomic Status (SES) and education levels were the *lowest* contributors to the model's predictions. The results emphasize that mere connection to an energy grid is insufficient; structural factors like urban infrastructure, public services, and appliance ownership (stoves) are the primary drivers in the transition to clean cooking.
-
-## Repository Structure
-*(Note to author: You can update this section based on your actual file and folder structure)*
-*   `data/`: Contains the preprocessed CLSS datasets (or scripts to fetch them).
-*   `notebooks/`: Jupyter notebooks containing the Exploratory Data Analysis (EDA) and model prototyping.
-*   `src/`: Python scripts for data preprocessing, model training, and evaluation.
-*   `PTNY8.pdf`: The complete research document detailing the theoretical framework and extended findings.
-*   `requirements.txt`: Python dependencies required to run the code.
-
-## Getting Started
-1. Clone the repository.
-2. Install the required dependencies: `pip install -r requirements.txt`.
-3. Run the preprocessing and training scripts located in the `src/` directory.
